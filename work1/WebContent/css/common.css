@@ -38,9 +38,21 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     font-size: 100%;
 }
-q:before,q:after {
-    content:'';
+
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    font-size:0;
+    *zoom:1;
 }
+
+
+
 abbr,acronym {
     border: 0;
 }
@@ -57,7 +69,6 @@ a{
 }
 .d-center-all{
     width:1020px;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
 }

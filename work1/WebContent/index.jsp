@@ -10,11 +10,11 @@
 <body>
 <%@ include file="header.jsp" %>
 <div class="container">
-    <div class="center d-center-all">
+    <div class="center d-center-all clearfix">
       <%@ include file="left.jsp" %>
-        <div class="right-content">
-              <%@ include file="receivedOrder.jsp" %>
-        </div>
+        
+      <%@ include file="receivedOrder.jsp" %>
+       
     </div>
 </div>
 <%@ include file="footer.jsp" %>

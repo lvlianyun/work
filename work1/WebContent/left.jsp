@@ -1,5 +1,5 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
-<div class="left-menu">
+<div class="left-menu" >
     <ul class="vertical-menu">
         <li class="one-menu">
             <span>交易管理</span>
