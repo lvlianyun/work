@@ -295,3 +295,15 @@ a{
     font-weight: bold;
     font-size:14px;
 }
+/* 右侧栏样式 */
+.right-tools{
+  position: fixed;
+  right:0;
+  bottom:150px;
+}
+.right-tools img{
+	padding:10px;
+    border:solid 1px #eeeeee;
+}
+
+

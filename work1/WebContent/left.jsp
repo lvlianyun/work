@@ -4,10 +4,10 @@
         <li class="one-menu">
             <span>交易管理</span>
             <ul class="two-menu">
-                <li><a href=""  class="organge">我收到的预约</a><span>（<span id="amount" class="organge">1</span>）</span></li>
-                <li><a href="">我申请的订单</a></li>
-                <li><a href="">我收到的派单</a></li>
-                <li><a href="">我已签约订单</a></li>
+                <li><a href="receivedOrder.jsp?menId=11"  class="organge">我收到的预约</a><span>（<span id="amount" class="organge">1</span>）</span></li>
+                <li><a href="appliedOrder.jsp?menId=12">我申请的订单</a></li>
+                <li><a href="receivedWorkSheet.jsp?menId=13">我收到的派单</a></li>
+                <li><a href="signedOrder.jsp?menId=14">我已签约订单</a></li>
             </ul>
         </li>
         <li class="one-menu">

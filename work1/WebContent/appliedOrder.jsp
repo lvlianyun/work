@@ -1,4 +1,3 @@
-
 <%@ page language="java" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,11 +11,10 @@
 	<%@ include file="header.jsp"%>
 	<div class="container">
 		<div class="center d-center-all clearfix">
-			
-			<%@ include file="left.jsp"%>
 
+			<%@ include file="left.jsp"%>
 			<div class="right-content">
-				<p class="title">我收到的预约</p>
+				<p class="title">我申请的订单</p>
 				<table class="table">
 					<thead>
 						<tr class="table-header">
@@ -151,6 +149,7 @@
 			</div>
 		</div>
 	</div>
+
 	<%@ include file="footer.jsp"%>
 </body>
 </html>
