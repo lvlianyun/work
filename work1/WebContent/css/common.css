@@ -1,4 +1,7 @@
 @charset "utf-8";
+
+/* 此样式为整个系统的公共样式 */
+
 html,body{
     font-family:"微软雅黑","Helvetica Neue", Helvetica, Arial, sans-serif;
     margin:0;
@@ -38,7 +41,51 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     font-size: 100%;
 }
+/* 上下左右箭头样式 */
 
+.arrow{  
+     display:inline-block;  
+     border-style: solid;  
+     border-width: 4px 6px 4px;  
+     height: 0;  
+     margin: 2px 5px;  
+     padding: 0;  
+     width: 0;  
+ }  
+
+.arrow-top{
+    border-color:  transparent transparent #000000;
+    border-width: 0px 4px 6px;
+}
+.arrow-down{
+    border-color: #000000 transparent transparent;
+    border-width: 6px 4px 0px;
+}
+.arrow-left{
+    border-color: transparent  #000000   transparent  transparent;
+}
+.arrow-right{
+    border-color: transparent  transparent transparent #000000;
+}
+.text-left {
+    text-align: left
+}
+.text-right {
+    text-align: right
+}
+.text-center {
+    text-align: center
+}
+
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+.margin-left20{
+	margin-left: 20px;
+}
 
 .clearfix:after{
     content: "";
@@ -51,8 +98,6 @@ h1,h2,h3,h4,h5,h6 {
     *zoom:1;
 }
 
-
-
 abbr,acronym {
     border: 0;
 }
@@ -64,6 +109,15 @@ a{
  a:hover{
     color:#f06c0f;
 }
+.bgColorOrgange{
+	background-color:#f06c0f;
+	color: white;
+	padding: 1px 8px;      border-radius: 2px;      border: solid 1px #d4d4d4;
+}
+.bgColorOrgange:hover{
+	color:white;
+}
+
 .organge{
     color: #f06c0f!important;
 }
@@ -72,6 +126,7 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+/* 导航栏样式 */
 .navbar{
     position: relative;
     border:0;
@@ -91,4 +146,152 @@ a{
 .d-navbar .navbar-menu li a{
     color: white;
     font-size: 15px;
+}
+
+
+
+.container {
+	
+}
+/* 头部样式 */
+.header .d-header-top {
+	min-height: 30px;
+}
+
+.header .header-container {
+	
+}
+
+.header .header-container .navbar-menu {
+	display: block;
+}
+
+.header .header-container .navbar-menu .logo {
+	padding: 0 30px 0 0;
+}
+
+.header .header-container .navbar-menu .logo img {
+	vertical-align: middle;
+	margin-left: -40px;
+}
+
+
+/* 左边菜单样式 */
+
+.container .left-menu {
+	float: left;
+	width: 16.66666667%;
+	clear: both;
+}
+
+
+
+.left-menu .vertical-menu .one-menu>span {
+	display: block;
+	color: #333333;
+	font-weight: bold;
+	margin: 35px 0 0 0;
+	font-size: 14px;
+}
+
+.left-menu .vertical-menu .two-menu li {
+	padding: 10px 0 0 0;
+	font-size: 14px;
+}
+
+.left-menu .vertical-menu .two-menu li a {
+	color: #212020;
+}
+
+.left-menu .vertical-menu .two-menu li a:hover {
+	color: #f06c0f;
+}
+
+/* 右边样式 */
+
+.container .right-content {
+	/* clear: both; */
+	float: left;
+	width: 83.33333333%;
+	margin-top: 35px;
+}
+.right-content .table {
+	width: 100%;
+	margin-top: 23px;
+}
+.right-content .table .table-header {
+	border: solid 1px #eeeeee;
+}
+
+.right-content .table .table-header th {
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+.right-content .table tbody {
+	border: solid 1px #eeeeee;
+}
+
+.right-content .table td {
+	padding-top: 15px;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+
+/* 底部菜单样式 */
+.footer {
+	clear: both;
+	width: 1192px;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 100px;
+	color: #908F8F;
+}
+
+.footer .footer-container {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.footer .friend-links {
+	margin: 13px 0;
+	padding: 13px 0;
+	border-top: solid 1px #ECEAEA;
+	border-bottom: solid 1px #ECEAEA;
+}
+
+.footer .friend-links a {
+	/* color: #212020; */
+	font-size: 13px;
+	padding: 0 10px;
+}
+
+.footer .copyright {
+	margin-top: 10px
+}
+
+
+/* 分页样式 */
+.pagination {
+    margin-top: 9px;
+    padding: 10px 0 10px 10px;
+}
+.pagination > div{
+	display:inline-block;
+}
+.pagination ul li{
+	display: inline-block;
+	font-size: 14px;
+}
+.pagination ul li a {
+	 padding: 1px 8px; 
+	border-radius: 2px; 
+	 border: solid 1px #d4d4d4; 
+	 font-size: 13px;
+}
+.title{
+	color: #333333;
+    font-weight: bold;
+    font-size:14px;
 }
