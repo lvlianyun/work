@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>主页</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div class="header">
+	<header class="header-container">
+		<div class="d-header-top"></div>
+		<div class="navbar d-navbar">
+			<div class="d-center-all navbar-collapse">
+				<ul class="navbar-menu">
+					<li class="logo"><a href="/loan/apply"><img src="images/logo.png" /></a></li>
+					<li><a href="/tg/regactivity/index.html">个人中心</a></li>
+					<li><a href="/guide/safety" >个人主页</a></li>
+					<li><a href="/about/introduce" >接单大厅</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+</div>
+
+<div class="container">
+		<div class="center d-center-all clearfix">
+
+			<div class="left-menu" >
+				<ul class="vertical-menu">
+					<li class="one-menu">
+						<span>交易管理</span>
+						<ul class="two-menu">
+							<li><a href="receivedOrder.jsp?menId=11"  class="organge">我收到的预约</a><span>（<span id="amount" class="organge">1</span>）</span></li>
+							<li><a href="appliedOrder.jsp?menId=12">我申请的订单</a></li>
+							<li><a href="receivedWorkSheet.jsp?menId=13">我收到的派单</a></li>
+							<li><a href="signedOrder.jsp?menId=14">我已签约订单</a></li>
+						</ul>
+					</li>
+					<li class="one-menu">
+						<span>方案中心</span>
+						<ul class="two-menu">
+							<li><a href="">创建方案</a></li>
+							<li><a href="">方案管理</a></li>
+							<li><a href="">自定义产品</a></li>
+						</ul>
+					</li>
+					<li class="one-menu menu-last">
+						<span>主页管理</span>
+						<ul class="two-menu">
+							<li><a href="">我上传的案例</a></li>
+							<li><a href="">我发布的博文</a></li>
+							<li><a href="">我的收藏</a></li>
+						</ul>
+					</li>
+					<li class="one-menu menu-last">
+						<span>账号管理</span>
+						<ul class="two-menu">
+							<li><a href="">个人资料</a></li>
+							<li><a href="">身份认证</a></li>
+							<li><a href="">我的消息</a></li>
+							<li><a href="">我的余额</a></li>
+							<li><a href="">我的保证金</a></li>
+							<li><a href="">账号设置</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div class="right-content">
+				<p class="title">我申请的订单</p>
+				<table class="table">
+					<thead>
+						<tr class="table-header">
+							<th class="text-center"></th>
+							<th class="text-center">订单号</th>
+							<th class="text-center">雇主</th>
+							<th class="text-center">预约时间<span class="arrow arrow-top"></span></th>
+							<th class="text-center">需求详情</th>
+							<th class="text-center">概念方案</th>
+							<th class="text-center">订单状态</th>
+						</tr>
+						<tr>
+							<td colspan="7" class="text-right pagination"><ul>
+									<li><a href=""><span class="arrow arrow-left"></span>上一页</a></li>
+									<li><a href="">下一页<span class="arrow arrow-right"></span></a></li>
+								</ul></td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="text-center"><input type="checkbox" /></td>
+							<td class="text-center">0123456</td>
+							<td class="text-center">梅长苏</td>
+							<td class="text-center">2016-1-26</td>
+							<td class="text-center"><a href="">查看</a></td>
+							<td class="text-center"><a href="">上传</a></td>
+							<td class="text-center"></td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox" /></td>
+							<td class="text-center">0123456</td>
+							<td class="text-center">梅长苏</td>
+							<td class="text-center">2016-1-26</td>
+							<td class="text-center"><a href="">查看</a></td>
+							<td class="text-center"><a href="">修改方案</a></td>
+							<td class="text-center">未通过</td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox" /></td>
+							<td class="text-center">0123456</td>
+							<td class="text-center">梅长苏</td>
+							<td class="text-center">2016-1-26</td>
+							<td class="text-center"><a href="">查看</a></td>
+							<td class="text-center"><a href="">上传</a></td>
+							<td class="text-center">审核中</td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox" /></td>
+							<td class="text-center">0123456</td>
+							<td class="text-center">梅长苏</td>
+							<td class="text-center">2016-1-26</td>
+							<td class="text-center"><a href="">查看</a></td>
+							<td class="text-center"><a href="">修改方案</a></td>
+							<td class="text-center">已通过</td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox" /></td>
+							<td class="text-center">0123456</td>
+							<td class="text-center">梅长苏</td>
+							<td class="text-center">2016-1-26</td>
+							<td class="text-center"><a href="">查看</a></td>
+							<td class="text-center"><a href="">修改方案</a></td>
+							<td class="text-center">已通过</td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox" /></td>
+							<td class="text-center">0123456</td>
+							<td class="text-center">梅长苏</td>
+							<td class="text-center">2016-1-26</td>
+							<td class="text-center"><a href="">查看</a></td>
+							<td class="text-center"><a href="">修改方案</a></td>
+							<td class="text-center">已通过</td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox" /></td>
+							<td class="text-center">0123456</td>
+							<td class="text-center">梅长苏</td>
+							<td class="text-center">2016-1-26</td>
+							<td class="text-center"><a href="">查看</a></td>
+							<td class="text-center"><a href="">修改方案</a></td>
+							<td class="text-center">已通过</td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox" /></td>
+							<td class="text-center">0123456</td>
+							<td class="text-center">梅长苏</td>
+							<td class="text-center">2016-1-26</td>
+							<td class="text-center"><a href="">查看</a></td>
+							<td class="text-center"><a href="">修改方案</a></td>
+							<td class="text-center">已通过</td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox" /></td>
+							<td class="text-center">0123456</td>
+							<td class="text-center">梅长苏</td>
+							<td class="text-center">2016-1-26</td>
+							<td class="text-center"><a href="">查看</a></td>
+							<td class="text-center"><a href="">修改方案</a></td>
+							<td class="text-center">已通过</td>
+						</tr>
+						<tr>
+							<td class="text-center"><input type="checkbox" /></td>
+							<td class="text-center">0123456</td>
+							<td class="text-center">梅长苏</td>
+							<td class="text-center">2016-1-26</td>
+							<td class="text-center"><a href="">查看</a></td>
+							<td class="text-center"><a href="">修改方案</a></td>
+							<td class="text-center">已通过</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="pagination">
+					<div>
+						<ul>
+							<li class="firstPage"><input type="checkbox" />全选</li>
+							<li class="firstPage margin-left20"><a href="">删除</a></li>
+						</ul>
+					</div>
+					<div class="float-right">
+						<ul>
+							<li class="firstPage"><a href=""><span
+									class="arrow arrow-left"></span>上一页</a></li>
+							<li class="firstPage"><a href="" class="bgColorOrgange">1</a></li>
+							<li class="firstPage"><a href="">2</a></li>
+							<li class="firstPage"><a href="">3</a></li>
+							<li class="firstPage"><a href="">4</a></li>
+							<li class="lastPage"><a href="">下一页<span
+									class="arrow arrow-right"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="footer d-center-all">
+	<p class="friend-links">
+		<a href="">艺无界商城</a>
+		|
+		<a href=""> 岭南文化</a>
+		|
+		<a href=""> 新浪家居</a>
+		|
+		<a href="">太平洋家居</a>
+		|
+		<a href="">亚太家居 </a>
+		|
+		<a href="">艾瑞网</a>
+		|
+		<a href="">亿邦动力网</a>
+		|
+		<a href=""> 网易</a>
+	</p>
+	<p class="copyright">深圳市艺无界文化发展有限公司 © 版权所有</p>
+</div>
+
+</body>
+</html>
